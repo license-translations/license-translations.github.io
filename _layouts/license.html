@@ -1,0 +1,137 @@
+---
+layout: page
+---
+<div>
+	<a id="identifier" href="{{ "/tools/identifier#id=" | append: page.identifier | relative_url }}">{{ page.identifier }}</a>
+	{% for page_category in page.categories %}
+		{% for available_category in site.data.categories %}
+			{% if page_category == available_category.name %}
+				<a href="{{ "/" | append: page_category | append: "/" | relative_url }}" id="{{ page_category }}-badge">{{ available_category.label }}</a>
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+</div>
+<div>
+	<a href="{{ page.full_link }}" id="permalink">Permalink</a>
+</div>
+<p>
+	{% if page.summary %}
+		{{ page.summary | markdownify }}
+	{% else %}
+		No summary has been provided for this license.
+	{% endif %}
+</p>
+
+<h2>Summary</h2>
+<b>Note: this summary does not constitute a substitute for the
+	{% if page.original %}
+		<a href="{{ page.original }}">legal text</a>.
+	{% else %}
+		legal text.
+	{% endif %}
+</b>
+<div id="license-permissions">
+	<div id="license-permissions-can">
+		<h3>You can</h3>
+		<ul class="license-permissions-list">
+			{% assign permission_count = 0 %}
+			{% for license_permission in page.permissions %}
+				{% for available_permission in site.data.permissions %}
+					{% if license_permission == available_permission.name %}
+						<li>{{ available_permission.summary }}</li>
+						{% assign permission_count = permission_count | plus: 1 %}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+			
+			{% if permission_count == 0 %}
+				<li>Nothing.</li>
+			{% endif %}
+		</ul>
+	</div>
+	<div id="license-permissions-cannot">
+		<h3>You cannot</h3>
+		<ul class="license-permissions-list">
+			{% assign permission_count = 0 %}
+			{% for license_restriction in page.restrictions %}
+				{% for available_restriction in site.data.restrictions %}
+					{% if license_restriction == available_restriction.name %}
+						<li>{{ available_restriction.summary }}</li>
+						{% assign permission_count = permission_count | plus: 1 %}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+			
+			{% if permission_count == 0 %}
+				<li>Nothing.</li>
+			{% endif %}
+		</ul>
+	</div>
+	<div id="license-permissions-provided">
+		<h3>Provided that you</h3>
+		<ul class="license-permissions-list">
+			{% assign permission_count = 0 %}
+			{% for license_obligation in page.obligations %}
+				{% for available_obligation in site.data.obligations %}
+					{% if license_obligation == available_obligation.name %}
+						<li>{{ available_obligation.summary }}</li>
+						{% assign permission_count = permission_count | plus: 1 %}
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+			
+			{% if permission_count == 0 %}
+				<li>Nothing.</li>
+			{% endif %}
+		</ul>
+	</div>
+</div>
+
+<h2>Translations</h2>
+<ul id="license-translations">
+	{% assign language_count = 0 %}
+	{% for license_translation in page.translations %}
+		{% for available_language in site.data.languagedata %}
+			{% if license_translation == available_language.code %}
+				<li><a href="{{ "/licenses/" | append: page.identifier | append: "/" | append: page.identifier | append: "." | append: available_language.code | append: ".txt" | relative_url }}">{{ available_language.name }}</a></li>
+				{% assign language_count = language_count | plus: 1 %}
+			{% endif %}
+		{% endfor %}
+	{% endfor %}
+	
+	{% if language_count == 0 %}
+		<li>This license has not been translated. Please help by <a href="{{ "/about/contribute.html" | relative_url }}">contributing</a>!</li>
+	{% endif %}
+</ul>
+
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:87f119ba0b429ba17a44b4bffcab33165ebdacc0&dn=freebsd.txt
+var identifierDOM = document.getElementById("identifier");
+var permalinkDOM = document.getElementById("permalink");
+
+function identifierOnClick(event, attributeName) {
+	if(event.target) {
+		event.preventDefault();
+		navigator.clipboard.writeText(event.target[attributeName])
+			.then(function() {
+				event.target.setAttribute('tooltip', "Successfully copied to the clipboard!");
+			}, function(error) {
+				event.target.setAttribute('tooltip', "An error occurred: " + error);
+			})
+	}
+}
+function identifierOnBlur(event) {
+	event.target.removeAttribute('tooltip');
+}
+
+identifierDOM.onclick = function(event) {
+	identifierOnClick(event, 'textContent');
+};;
+identifierDOM.onblur = identifierOnBlur;
+permalinkDOM.onclick = function(event) {
+	identifierOnClick(event, 'href');
+};
+permalinkDOM.onblur = identifierOnBlur;
+
+// @license-end
+</script>

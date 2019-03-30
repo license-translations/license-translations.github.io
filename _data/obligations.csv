@@ -1,0 +1,8 @@
+name,summary
+copyright,Keep the original copyright on the software
+license,Include full text of license inside the software
+state-change,Stating which files have been changed, if any
+notice-file,You must include that NOTICE file inside the software, if any
+attribution,You must put an attribution in all advertising materials
+source-disclosure,The source code, as well as code combined with that source code, must be disclosed under this license
+same-license,Release the software under the same license as received

@@ -1,0 +1,222 @@
+
+                                 Licence Apache
+                           Version 2.0, janvier 2004
+                        http://www.apache.org/licenses/
+
+   WARNING: THIS TRADUCTION IN FRENCH OF THE APACHE LICENSE, VERSION 2.0
+   IS DISTRIBUTED IN THE HOPE IT WILL MAKE EASIER UNDERSTANDING. IN NO
+   EVENT IT IS NOT AN OFFICIAL ONE AND HAS NOT BEEN APPROVED NOR PUBLIED
+   BY THE APACHE FOUNDATION. IT IS NOT LEGALLY BINDING AND SHALL NOT BE
+   USED AS OFFICIAL TERMS OF THE APACHE LICENSE. AUTHOR DISCLAIMS ANY
+   RESPONSABILITY ABOUT ANY PART OF THE TRANSLATION.
+   IF YOU INCLUDE A COPY OF THE LICENSE IN FRENCH, THEN YOU MUST INCLUDE
+   THE ORIGINAL IN ENGLISH AS WELL.
+
+   ------------------------------------------------------------
+
+   ATTENTION : CETTE TRADUCTION EN FRANÇAIS DE LA LICENCE APACHE, VERSION
+   2.0 EST DISTRIBUÉE DANS L'ESPOIR QU'IL RENDRA PLUS FACILE LA
+   COMPRÉHENSION. EN AUCUNE CIRCONSTANCE ELLE N'EST UNE LICENCE OFFICIELLE
+   ET N'A ÉTÉ APPROUVÉE NI PUBLIÉE PAR LA FONDATION APACHE. ELLE NE
+   FORME PAS UN CONTRAT LÉGAL ET NE DEVRAIT PAS ÊTRE UTILISÉ COMME LES
+   TERMES OFFICIELS DE LA LICENCE. L'AUTEUR DÉCLINE TOUTE RESPONSABILITÉ
+   SUR TOUTE PARTIE DE LA TRADUCTION.
+   SI VOUS INCLUEZ UNE COPIE DE LA LICENCE EN FRANÇAIS, ALORS VOUS DEVEZ
+   INCLURE ÉGALEMENT L'ORIGINAL EN ANGLAIS.
+   
+
+   STIPULATIONS POUR L'UTILISATION, LA REPRODUCTION ET LA DISTRIBUTION
+
+   1. Définitions.
+
+      La "Licence" signifie les stipulations pour l'utilisation, la
+      reproduction et la distribution, sections 1 à 9 de ce document.
+
+      Le "Concédant" signifie le détenteur des droits d'auteur ou une
+      entité autorisée qui donne la Licence.
+
+      Une "Entité Légale" doit signifie l'union de l'entité agissant et
+      de toutes les autres entités qui contrôlent, sont contrôlées par ou
+      sont sous contrôle commun avec cette entité. Pour cette définition,
+      "contrôle" signifie (1) le pouvoir, direct ou indirect, qui cause
+      la direction ou la gestion de cette entité, que ce soit par contrat
+      ou autre, ou (2) la propriété d'au moins cinquante pourcent (50%)
+      des parts de marché, ou (3) la propriété bénéfique de cette entité.
+
+      "Vous" (ou "Votre", ou "Vôtre") signifie un invididu ou une Entité
+      Légale qui exerce les droits autorisés par cette Licence.
+
+      Le "Code Source" est la forme préférée pour effectuer des
+      modifications, incluant mais non limité au code source de logiciel,
+      à la source de documentation et aux fichiers de configuration.
+
+      Le "Code Objet" est la form résultant de toute transformation du
+      Code Source, incluant mais non limité au code objet compilé, à la
+      documentation générée ou à la conversion à d'autres types de média.
+
+      La "Création" doit signifier le travail d'un auteur, sous Code
+      Source ou Code Objet, disponible sous la Licence comme indiqué dans
+      la mention de droit d'auteur incluse ou attachée à la création
+      (un exemple est fourni dans l'Annexe ci-dessous).
+
+      Les "Créations Dérivées" sont des créations, sous Code Source ou
+      Code Objet, basées ou dérivées de la Création et pour laquelle
+      les révisions éditoriales, annotations et autres modifications
+      constituent en tout une création originale. Pour cette définition,
+      les Créations Dérivées ne doivent pas inclure les créations qui
+      restent séparables d'elles, ou qui sont simplement liées aux
+      interfaces des Créations et Créations Dérivées.
+
+      Une "Contribution" est toute création incluant la version originale
+      de la Création ou des Créations Dérivées, intentionnellent envoyées
+      au Concédant pour l'inclusion dans la Création par le détenteur des
+      droits d'auteur ou par un invididu ou une Entité Légale autorisée à
+      les envoyer pour ce dernier. Pour cette définition, "envoyer"
+      signifie toute forme de communication écrite, verbale ou électronique
+      pour le Concédant ou ses représentants, incluant mais non limité à
+      la communication sur les listes de courrier électroniques, les
+      systèmes de contrôle de code source, et les systèmes de suivi des
+      problèmes gérés par le Concédant afin de discuter et d'améliorer la
+      Création, mais excluant les communications qui sont explicitement
+      marquées par écrit par le détenteur des droits d'auteur comme étant
+      "pas une Contribution".
+
+      Le "Contributeur" est le Concédant et tout invididu ou Entité Légale
+      de la part de qui une Contribution a été reçue par le Concédant et
+      a été incorporée dans la Création.
+
+   2. Accord de Licence de Droit d'Auteur. Selon les stipulations de cette
+      Licence, chaque Contributeur Vous accorde par la présente une licence
+      de droit d'auteur perpétuelle, non exclusive, irrévocable, sans
+      charge, sans royaltie et dans le monde entier pour reproduire,
+      sous-licencier, et distribuer la Création et celles qui ont sont
+      Derivées sous Code Source ou Objet.
+
+   3. Accord de Licence de Brevet. Selon les stipulations de cette Licence,
+      chaque Contributeur Vous accorde par la présente une licence de brevet
+      perpétuelle, non exclusive, irrévocable (sauf dans les conditions sous
+      cette Licence), sans charge, sans royaltie et dans le monde entier
+      pour créer, utiliser, offrir, vendre, importer ou sinon transférer la
+      Création, où une telle licence s'applique seulement aux brevets qui
+      sont licenciables par un tel Contributeur qui sont enfreints par ses
+      Contribution(s), seul ou avec une combinaison de leurs Contribution(s)
+      avec la Création auxquels ces Contribution(s) ont été envoyées. Si
+      Vous intentez des poursuites contre toute entité (y compris une
+      demande reconventionnelle dans une action en justice) alléguant
+      qu'une Contribution incorporée dans l'œuvre constitue une contrefaçon
+      direct ou de brevet contributif, les licences de brevet qui Vous sont
+      accordées sous cette Licence devraient se terminer à compter de la date
+      de dépôt de ce litige.
+
+   4. Redistribution. Vous pouvez reproduire et distribuer la Création ou
+      ses Dérivées sur tout support, avec ou sans modifications, sous Code
+      Source ou Objet, pourvu que Vous respectiez les conditions suivantes :
+
+      (a) Vous devez donner à tous les destinaires de la Création ou de ses
+          Dérivées une copie de la Licence ; et
+
+      (b) Vous devez afficher dans les fichiers modifiés des mentions qui
+          attestent de la modification des fichiers ; et
+
+      (c) Vous devez conserver dans le Code Source de toutes les Créations
+          Dérivées que Vous distribuez, toute mention de droit d'auteur, de
+          marque, de brevet et autre provenant du Code Source de la Création,
+          excluant celles qui n'appartiennent à aucune partie des Créations
+          Dérivées ; et
+
+      (d) Si la Création contient un fichier "NOTICE" dans sa distribution,
+          alors toute Dérivée que Vous distribuez doit inclure un exemplaire
+          lisible de la mention d'attribution dans ce fichier, excluant les
+          mentions qui n'appartiennent à aucune partie des Créations
+          Dérivées, au moins dans à un des emplacements suivants : dans un
+          fichier texte NOTICE distribué avec les Créations Dérivées ; dans
+          le Code Source ou la documentation, si fourni avec les Créations
+          Dérivées, ou dans une mention affichée par les Créations Dérivées
+          et partout où ces mentions apparaissent normalement. Le contenu du
+          fichier NOTICE sont à titre indicatif et ne modifient pas la
+          Licence. Vous pouvez ajouter Votre propre mention d'attribution
+          dans les Créations Dérivées que Vous distribuez, à côté ou comme un
+          annexe au fichier NOTICE de la Création, pourvu que ces
+          informations supplémentaires ne viennent pas à modifier la Licence.
+
+      Vous pouvez ajouter Votre propre mention de droit d'auteur à Vos
+      modifications, ou fournir une licence différente ou des stipulations
+      supplémentaires pour l'utilisation, la reproduction et la distribution
+      de Vos modifications, ou pour les Créations Dérivées, pourvu que Votre
+      utilisation, reproductoin et distribution de la Création respecte les
+      conditions inscrites dans cette Licence.
+
+   5. Envoi des Contributions. Sauf si Vous l'indiquez autrement de façon
+      explicite, toute Contribution intentionnellement envoyée pour
+      l'inclusion dans la Création doit être dans les stipulations de cette
+      Licence, sans aucune condition supplémentaire.
+      En dépit de cela, rien ici ne devrait supplanter ou modifier les termes
+      d'un contrat de licence séparé que Vous pouvez avoir exécuter avec le
+      Concédant concernant ces Contributions.
+
+   6. Marques. Cette Licence ne vous confère aucune permission d'utilisation
+      des noms commerciaux, des marques et des noms de produit du Concédant,
+      sauf si requis pour une utilisation raisonnable et usuel en décrivant
+      l'origine de la Création et en reproduisant le contenu du fichier
+      NOTICE.
+
+   7. Absence de Garantie. Sauf requis par la loi ou sur accord écrit, le
+      Concédant fournit la Création (et chaque Contributeur fournit ses
+      Contributions) "TELLE QUELLE", SANS GARANTIES OU CONDITIONS DE TOUT
+      TYPE, soit expresse ou implicite, incluant, sans limitation, toute
+      garantie ou condition de TITRE, de NON-VIOLATION, de VALEUR
+      COMMERCIALE ou de CONFORMITÉ POUR UN OBJECTIF PARTICULIER. Vous êtes
+      responsable de déterminer la pertinence d'utiliser ou de redistribuer
+      la Création et assumez tout risque associé à Votre exercice des
+      permissions sous cette Licence.
+
+   8. Limitation de Responsabilité. En aucune circonstance, que ce soit en
+      tort (incluant la négligence), sous contrat ou autre, sauf si requis
+      par la loi (tels que les actes de négligence) ou sur accord écrit,
+      aucun Contributeur ne devrait Vous être responsable pour les
+      dommages, directs, indirects, spéciaux, incidentels ou des
+      conséquences de toute caractère survenant comme résultat de cette
+      Licence, ou l'inaptitude à utiliser la Création (incluant mais non
+      limité aux dommages pour les pertes de biens, l'arrêt de travail,
+      le dysfonctionnement d'un ordinateur, ou d'autres pertes et dommages
+      commerciaux), même si un Contributeur a été prévenu de la
+      possibilité de tels dommages.
+
+   9. L'Acceptation d'une Garantie ou d'une Responsabilité Additionnelle.
+      Pendant que Vous redistribuez la Création ou ses Dérivées, Vous avez
+      le choix d'offrir ou d'imposer un prix pour le support, la garantie,
+      l'indemnité ou toute autre obligation et droit de responsabilité
+      consistent avec cette Licence. Toutefois, en acceptant ces
+      obligations, Vous devez agir uniquement de Votre part et sous Votre
+      seule responsabilité, pas de la part de tout autre Contributeur, et
+      seulement si Vous acceptez d'indemniser, de défendre, et de laisser
+      chaque Contributeur indemne pour toute responsabilité subie par
+      chaque Contributeur pour raison de votre acceptation d'une telle
+      garantie ou d'une responsabilité additionnelle.
+
+   FIN DES TERMES ET STIPULATIONS
+
+   ANNEXE : comment appliquer la Licence Apache sur votre Création
+
+      Pour appliquer la Licence Apache sur votre Création, attachez la
+      mention suite, avec les champs entre crochets remplacés avec vos
+      informations personnelles. (Enlevez les crochets d'abord !) Le
+      texte doit être dans un commentaire de format approprié pour le
+      format de fichier. Nous recommandons aussi qu'un nom de fichier ou
+      de classe et que la description de l'objectif soit inclus dans la
+      même page que la mention de droit d'auteur, pour une meilleure
+      identifiant dans les archives tierces.
+
+   Copyright [yyyy] [nom du détenteur de droit d'auteur]
+
+   Sous la Licence Apache, Version 2.0 (la "Licence"); vous ne pouvez
+   utiliser ce fichier qu'en concordance avec la Licence. Vous pouvez en
+   obtenir une copie à
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Sauf requis par la loi applicable ou sur accord écrit, le logiciel
+   distribué sous la Licence est distribué "TEL QUEL", SANS GARANTIE NI
+   CONDITION DE TOUT TYPE, soit expresse soit implicite. Lisez la
+   Licence pour les permissions spécifiques et les limitations sous la
+   Licence.

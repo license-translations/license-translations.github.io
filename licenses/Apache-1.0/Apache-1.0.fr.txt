@@ -1,0 +1,82 @@
+/* ====================================================================
+ * Copyright (c) 1995-1999 le Groupe Apache.  Tous droits réservés.
+ *
+ * WARNING: THIS TRADUCTION IN FRENCH OF THE APACHE LICENSE, VERSION 1.0
+ * IS DISTRIBUTED IN THE HOPE IT WILL MAKE EASIER UNDERSTANDING. IN NO
+ * EVENT IT IS NOT AN OFFICIAL ONE AND HAS NOT BEEN APPROVED NOR PUBLIED
+ * BY THE APACHE GROUP. IT IS NOT LEGALLY BINDING AND SHALL NOT BE USED
+ * AS OFFICIAL TERMS OF THE APACHE LICENSE. AUTHOR DISCLAIMS ANY
+ * RESPONSABILITY ABOUT ANY PART OF THE TRANSLATION.
+ * IF YOU INCLUDE A COPY OF THE LICENSE IN FRENCH, THEN YOU MUST INCLUDE
+ * THE ORIGINAL IN ENGLISH AS WELL.
+ *
+ * ------------------------------------------------------------
+ *
+ * ATTENTION : CETTE TRADUCTION EN FRANÇAIS DE LA LICENCE APACHE, VERSION
+ * 1.0 EST DISTRIBUÉE DANS L'ESPOIR QU'IL RENDRA PLUS FACILE LA
+ * COMPRÉHENSION. EN AUCUNE CIRCONSTANCE ELLE N'EST UNE LICENCE OFFICIELLE
+ * ET N'A ÉTÉ APPROUVÉE NI PUBLIÉE PAR LE GROUPE APACHE. ELLE NE FORME PAS
+ * UN CONTRAT LÉGAL ET NE DEVRAIT PAS ÊTRE UTILISÉ COMME LES TERMES
+ * OFFICIELS DE LA LICENCE. L'AUTEUR DÉCLINE TOUTE RESPONSABILITÉ SUR
+ * TOUTE PARTIE DE LA TRADUCTION.
+ * SI VOUS INCLUEZ UNE COPIE DE LA LICENCE EN FRANÇAIS, ALORS VOUS DEVEZ
+ * INCLURE ÉGALEMENT L'ORIGINAL EN ANGLAIS.
+ *
+ * La redistribution et l'utilisation sous forme source ou binaire,
+ * avec ou sans modifications, sont permises pourvu que les conditions
+ * suivantes sont satisfaites :
+ *
+ * 1. Les redistributions du code source doit conserver la mention de
+ *    droit d'auteur, cette liste de conditions et l'absence de
+ *    garantie.
+ *
+ * 2. La redistribution de la forme binaire doit reproduire la mention
+ *    de droit d'auteur, cette liste de conditions et l'absence de
+ *    garantie dans la documentation et les autres documents fournis
+ *    avec la distribution.
+ *
+ * 3. Tous les documents de publicité qui mentionnent les fonctionnalités
+ *    ou l'utilisation du logiciel doit afficher le crédit suivant :
+ *    "Ce produit comprend du logiciel développé par le Groupe Apache pour
+ *    utilisation dans le project de serveur HTTP Apache
+ *    (http://www.apache.org/)."
+ *
+ * 4. Les noms "Serveur Apache" et "Groupe Apache" ne doit pas être utilisé
+ *    pour soutenir ou promouvoir des produits dérivés de ce logiciel sans
+ *    autorisation écrite. Pour une autorisation écrite, veuillez contacter
+ *    apache@apache.org.
+ *
+ * 5. Les produits dérivés de ce logiciel ne peuvent être appelés
+ *    "Apache" ou contenir le mot "Apache" dans leur nom sans
+ *    autorisation écrite du Groupe Apache.
+ *
+ * 6. Toute redistribution doit retenir le crédit suivant :
+ *    "Ce produit comprend du logiciel développé par le Groupe Apache pour
+ *    utilisation dans le project de serveur HTTP Apache
+ *    (http://www.apache.org/)."
+ *
+ * CE LOGICIEL EST FOURNI PAR LE GROUPE APACHE ``TEL QUEL'' ET SANS GARANTIE
+ * EXPRESSE OU IMPLICITE, INCLUANT MAIS NOT LIMITÉ À, LES GARANTIES
+ * IMPLICITES DE VALEUR COMMERCIALE ET DE CONFORMITÉ POUR UN OBJECTIF
+ * PARTICULIER. EN AUCUNE CONSÉQUENCE LE GROUPE APACHE OU SES CONTRIBUTEURS
+ * NE DOIVENT ÊTRE RESPONSABLES POUR DOMMAGE DIRECT, INDIRECT, INDICENTEL,
+ * SPÉCIAL, COMPLÉMENTAIRE OU TOUTE AUTRE CONSÉQUENCE (INCLUANT, MAIS NON
+ * LIMITÉ À LA PROCURATION DE BIENS OU DE SERVICES, LA PERTE DE L'USABILITÉ,
+ * DE DONNÉES OU DE PROFITS, OU L'INTERRUPTION DE LA VIE D'UNE ENTREPRISE)
+ * CAUSÉ ET SUR TOUTE THÉORIE DE RESPONSABILITÉ, QUE CE SOIT PAR CONTRAT,
+ * PAR RESPONSABILITÉ STRICTE, OU PAR TORT (INCLUANT LA NÉGLIGANCE ET
+ * AUTRE) SURVENANT DE N'IMPORTE QUELLE MANIÈRE DE L'UTILISATION DE CE
+ * LOGICIEL, MÊME SI ELLE A ÉTÉ PRÉVENU DE LA POSSIBILITÉ DE TELS
+ * DOMMAGES.
+ * ====================================================================
+ *
+ * Ce logiciel est constitué de contributions volontaires de beaucoup
+ * d'individus de la part du Groupe Apache et est originellement basé sur du
+ * logiciel dans le domaine public écrit originellement par le Centre
+ * National pour les Applications de Superordinateurs, Université d'Illinois,
+ * Urbana-Champaign.
+ *
+ * Pour plus d'informations sur le Groupe Apache ou le projet de serveur HTTP
+ * Apache, veuillez visiter <http://www.apache.org/>.
+ *
+ */
