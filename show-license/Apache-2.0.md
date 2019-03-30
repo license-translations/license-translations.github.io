@@ -1,1 +1,1 @@
-/home/maxime/Documents/GitHub/license-translations/_apache/apache-2.0.md
+../_apache/apache-2.0.md

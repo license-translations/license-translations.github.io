@@ -1,1 +1,1 @@
-/home/maxime/Documents/GitHub/license-translations/_bsd-like/bsd-4-clause.md
+../_bsd-like/bsd-4-clause.md

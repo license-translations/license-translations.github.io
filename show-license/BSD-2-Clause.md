@@ -1,0 +1,1 @@
+../_bsd-like/bsd-2-clause.md
