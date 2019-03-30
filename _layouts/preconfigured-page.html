@@ -1,0 +1,27 @@
+---
+layout: default
+---
+{% assign language_count = 0 %}
+{% for page_translation in page.page_translations %}
+	{% for available_language in site.data.languagedata %}
+		{% if page_translation == available_language.code %}
+			{% if language_count == 0 %}
+				<span id="available-languages">Available languages:</span>
+			{% else %}
+				|
+			{% endif %}
+			{% assign page_lang = page.lang | default: "en_US" %}
+			{% if available_language.code == page_lang %}
+				<b>{{ available_language.name }}</b>
+			{% elsif available_language.code == "en_US" %}
+				<a href="{{ page.base_url | append: ".html" | relative_url }}">{{ available_language.name }}</a>
+			{% else %}
+				<a href="{{ page.base_url | append: "." | append: page_translation | append: ".html" | relative_url }}">{{ available_language.name }}</a>
+			{% endif %}
+			{% assign language_count = language_count | plus: 1 %}
+		{% endif %}
+	{% endfor %}
+{% endfor %}
+<hr />
+<h1 class="post-title">{{ page.title | escape }}</h1>
+{{ content }}

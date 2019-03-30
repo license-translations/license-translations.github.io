@@ -1,11 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ page.lang }}">
 	<head>
 		{% include head.html %}
 	</head>
 	<body>
 		{% include header.html %}
 		<article id="post" class="main">
+			<div id="warning" style="background: #df0000; color: #ffffff; width: 100%; padding: 0.25em">
+				This site is in beta and is subject to change.
+			</div>
 			{{ content }}
 		</article>
 		{% include footer.html %}
