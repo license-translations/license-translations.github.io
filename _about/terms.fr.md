@@ -5,65 +5,60 @@ lang: fr
 base_url: /about/terms
 page_translations: [en_US, fr]
 ---
-This page has not been translated yet.
+Effectif depuis le 5 avril 2019  
+Ces termes et conditions définissement comment vous pouvez interagir avec le site web
+[Traductions de licences](https://license-translations.github.io/index.fr.html) et
+tous les sites appartenant au projet Traductions de licences (le "Réseau Public").
+Veuillez lire ces termes avec précaution, de même que tous les documents fournis par
+les contributeurs de projet (l'"Équipe"), parce qu'ils constituent le "Contrat"
+entier entre vous et les contributeurs. **La visite de ce site signifie l'acceptation
+de ces termes.**
 
----
+## 1. Informations légales
+Le Réseau Public est hébergé par [GitHub, Inc](https://github.com/) (l'"Hébergeur")
+pour :
+* Maxime Launois, gestionnaire des sites du Réseau Public, et
+* Les contributeurs du projet Traductions de licences, détenteurs des droits d'auteur
+sur leurs contributions.
 
-Effectif depuis le 30 mars 2019  
-These terms and conditions define how you can interact with the
-[License translations](https://license-translations.github.io) website and
-all websites belonging to the License translations project (collectively, the
-"Public Network"). Please read these terms and conditions carefully, as well
-as other documents provided by the License translations project (the "Team"),
-because this constitutes the full "Agreement" between you and the License
-translations contributors. **Visiting the site means you have accepted these
-Terms.**
+## 2. Note de copyright
+Toute information affichée ou mise disponible sur le Réseau Public, incluant sans
+limitation les textes de licence, l'organisation et l'apparance du site, sont
+copyright © 2019 The License Translation project et sont sous la licence
+[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
 
-## 1. Legal information
-The Public Network is hosted by [GitHub, Inc](https://github.com/) (the "Hosting
-Provider") for:
-* Maxime Launois, manager of sites of the Public Network; and
-* The License translations contributors, copyright holders of their contributions
-and/or submissions.
+## 3. Disponibilité du Réseau Public
+L'Équipe fait de son mieux pour rendre disponible le Réseau Public à tout moment, mais
+nous pouvons - de même que l'Hébergeur - fermer l'accès au Site pour des raisons de
+maintenance ou autres. Nous ne pouvons être tenus responsable pour les dommages résultant
+de la perte de disponibilité du Réseau Public.
 
-## 2. Copyright notice
-All material displayed and/or made available on the Public Network, including
-license texts, layout and look-and-feel, is copyright © 2019 The License Translation
-project and is licensed under the
-[Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/)
-License.
+## 4. Politique de confidentialité
+Nous ne collectons jamais vos données personnelles.
 
-## 3. Availability of the Public Network
-The Team does everything to make the Public Network available every time, but we (and the
-Hosting Provider as well) may take down the Site for maintenance purposes. We cannot be
-held responsible for harm resulting from inavailability of the Public Network.
+## 5. Absence de garantie
+L'Équipe fournit le contenu sur le Réseau Public "tel quel". Il ne donne aucune
+garantie de toute sorte sur le contenu, que ce soit expresse ou implicite. L'information
+publiée sur le Réseau Public peut être approximatif, inexact, non sécurisé, pas à jour
+ou contenir des erreurs. Par ailleurs, l'Équipe ne garantit pas que ces informations
+vont être adéquats pour vos besoins. **Sauf requis par la loi, vous assumez toute
+responsabilité sur l'utilisation de ces informations.**
 
-## 4. Privacy policy
-We never collect sensitive or personal data on behalf of you.
+## 6. Limitation de responsabilité
+En aucune circonstance un contributeur du projet Traductions de licences ne sera tenu
+responsable pour tout dommage direct, indirect, spécial ou autre, résultant de l'utilisation
+de l'information du Réseau Public, même si l'Équipe a été avertie de la possibilité de
+tels dommages.
 
-## 5. Disclaimer of warranty
-The Team provides the content on the Public Network "as-is". It does not grant
-warranty of any kind on the content, whether express or implied. Information published
-on the Public Network may be inaccurate, inexact, unsecure, not up-to-date and not
-error-free. As well, the Team does not guarantee that the information will meet your
-requirements. **Unless required by law, you assume full responsability over the use
-of the information.**
+## 7. Loi applicable
+Ce Contrat est gouverné par les [Conditions de service de GitHub](https://github.com/site/terms)
+et les lois de la République française.
 
-## 6. Limitation of liability
-In no event shall be held liable to you or to any party any License translations contributor,
-for any loss or damage, direct or indirect, special or whatsoever, resulting from the use
-of the information on the Public Network. This applies even if the Team has been advised
-of possibility of such damages.
+## 8. Champ d'application
+Si toute partie de ces Termes est considérée invalide ou inapplicable, toute autre partie
+ne doit pas être invalide et doit rester de pleins effet et force. Tout échec de l'Équipe
+à appliquer ces Termes comme un abondon des obligations à enforcer ces Termes.
 
-## 7. Applicable law
-This Agreement is governed by both the [GitHub Terms of Service] and the laws of the French
-Republic.
-
-## 8. Severability; No waiver
-If any part of these Terms are considered invalid and/or unenforceable, no other part shall
-be deemed invalid and shall be in full effect and force. Any failure from the Team to
-enforce these Terms shall be considered as a waiver to enforce these Terms.
-
-## 9. Contact information
-Please contact **launois STOPSPAM dot maxime at free dot fr** (remove the **STOPSPAM** first!)
-for further information.
+## 9. Contacter
+Veuillez contacter **launois STOPSPAM dot maxime at free dot fr** (enlevez **STOPSPAM** d'abord !)
+pour de plus amples informations.

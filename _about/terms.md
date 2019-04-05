@@ -4,7 +4,7 @@ title: Terms and conditions
 base_url: /about/terms
 page_translations: [en_US, fr]
 ---
-Fffective as of March 30th, 2019  
+Fffective as of April 5th, 2019  
 These terms and conditions define how you can interact with the
 [License translations](https://license-translations.github.io) website and
 all websites belonging to the License translations project (collectively, the
@@ -51,13 +51,13 @@ of the information on the Public Network. This applies even if the Team has been
 of possibility of such damages.
 
 ## 7. Applicable law
-This Agreement is governed by both the [GitHub Terms of Service] and the laws of the French
-Republic.
+This Agreement is governed by both the [GitHub Terms of Service](https://github.com/site/terms)
+and the laws of the French Republic.
 
 ## 8. Severability; No waiver
 If any part of these Terms are considered invalid and/or unenforceable, no other part shall
 be deemed invalid and shall be in full effect and force. Any failure from the Team to
-enforce these Terms shall be considered as a waiver to enforce these Terms.
+enforce these Terms shall not be considered as a waiver to enforce these Terms.
 
 ## 9. Contact information
 Please contact **launois STOPSPAM dot maxime at free dot fr** (remove the **STOPSPAM** first!)
