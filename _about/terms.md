@@ -4,7 +4,7 @@ title: Terms and conditions
 base_url: /about/terms
 page_translations: [en_US, fr]
 ---
-Fffective as of April 5th, 2019  
+Effective as of April 5th, 2019  
 These terms and conditions define how you can interact with the
 [License translations](https://license-translations.github.io) website and
 all websites belonging to the License translations project (collectively, the
