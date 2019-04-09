@@ -9,13 +9,13 @@
 	</head>
 	<body>
 		{% include header.html %}
+		<script src="{{ "/assets/base.min.js" | relative_url }}" async></script>
 		<article id="post" class="main">
 			<div id="warning" style="background: #df0000; color: #ffffff; width: 100%; padding: 0.4em">
 				This site is in beta and is subject to change.
 			</div>
 			{{ content }}
 		</article>
-		<script src="{{ "/assets/base.min.js" | relative_url }}" async="true"></script>
 		{% include footer.html %}
 	</body>
 </html>
