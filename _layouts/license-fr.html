@@ -27,7 +27,7 @@ layout: page
 <div>
 	<a id="identifier" href="{{ "/tools/identifier#id=" | append: page.identifier | relative_url }}">{{ page.identifier }}</a>
 	{% for page_category in page.categories %}
-		{% for available_category in site.data.categories %}
+		{% for available_category in site.data.categories-fr %}
 			{% if page_category == available_category.name %}
 				<a href="{{ "/" | append: page_category | append: "/" | relative_url }}" id="{{ page_category }}-badge">{{ available_category.label }}</a>
 			{% endif %}
@@ -35,32 +35,31 @@ layout: page
 	{% endfor %}
 </div>
 <div>
-	<a href="{{ page.full_link }}" id="permalink">Permalink</a> |
-	<a href="{{ site.github.repository_url }}/tree/master/{{ page.relative_path }}" id="edit-page">Improve this page</a>
+	<a href="{{ page.full_link }}" id="permalink">Lien permanent</a>
 </div>
 <p>
 	{% if page.summary %}
 		{{ page.summary | markdownify }}
 	{% else %}
-		No summary has been provided for this license.
+		Aucune description n'a été donnée pour cette licence.
 	{% endif %}
 </p>
 
-<h2>Summary</h2>
-<b>Note: this summary does not constitute a substitute for the
+<h2>Résumé</h2>
+<b>Ce résumé ne constitue en aucun cas un substitut pour le
 	{% if page.original %}
-		<a href="{{ page.original }}">legal text</a>.
+		<a href="{{ page.original }}">texte original</a>.
 	{% else %}
-		legal text.
+		texte original.
 	{% endif %}
 </b>
 <div id="license-permissions">
 	<div id="license-permissions-can">
-		<h3>You can</h3>
+		<h3>Vous pouvez</h3>
 		<ul class="license-permissions-list">
 			{% assign permission_count = 0 %}
 			{% for license_permission in page.permissions %}
-				{% for available_permission in site.data.permissions %}
+				{% for available_permission in site.data.permissions-fr %}
 					{% if license_permission == available_permission.name %}
 						<li>{{ available_permission.summary }}</li>
 						{% assign permission_count = permission_count | plus: 1 %}
@@ -74,11 +73,11 @@ layout: page
 		</ul>
 	</div>
 	<div id="license-permissions-cannot">
-		<h3>You cannot</h3>
+		<h3>Vous ne pouvez pas</h3>
 		<ul class="license-permissions-list">
 			{% assign permission_count = 0 %}
 			{% for license_restriction in page.restrictions %}
-				{% for available_restriction in site.data.restrictions %}
+				{% for available_restriction in site.data.restrictions-fr %}
 					{% if license_restriction == available_restriction.name %}
 						<li>{{ available_restriction.summary }}</li>
 						{% assign permission_count = permission_count | plus: 1 %}
@@ -92,7 +91,7 @@ layout: page
 		</ul>
 	</div>
 	<div id="license-permissions-provided">
-		<h3>Provided that you</h3>
+		<h3>Vous devez</h3>
 		<ul class="license-permissions-list">
 			{% assign permission_count = 0 %}
 			{% for license_obligation in page.obligations %}
@@ -111,7 +110,7 @@ layout: page
 	</div>
 </div>
 
-<h2>Translations</h2>
+<h2>Traductions</h2>
 <ul id="license-translations">
 	{% assign language_count = 0 %}
 	{% for license_translation in page.translations %}
@@ -124,7 +123,7 @@ layout: page
 	{% endfor %}
 	
 	{% if language_count == 0 %}
-		<li>This license has not been translated. Please help by <a href="{{ "/about/contribute.html" | relative_url }}">contributing</a>!</li>
+		<li>Cette licence n'a pas été traduite. Vous pouvez aider en <a href="{{ "/about/contribute.fr.html" | relative_url }}">contribuant</a> !</li>
 	{% endif %}
 </ul>
 
@@ -138,9 +137,9 @@ function identifierOnClick(event, attributeName) {
 		event.preventDefault();
 		navigator.clipboard.writeText(event.target[attributeName])
 			.then(function() {
-				event.target.setAttribute('tooltip', "Successfully copied to the clipboard!");
+				event.target.setAttribute('tooltip', "Copié avec succès dans le presse-papiers !");
 			}, function(error) {
-				event.target.setAttribute('tooltip', "An error occurred: " + error);
+				event.target.setAttribute('tooltip', "Une erreur s'est produite: " + error);
 			})
 	}
 }

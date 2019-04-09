@@ -1,0 +1,122 @@
+code {
+	font-family: FreeMono, "Courier New", Consolas, monospace;
+}
+h2 {
+	font-size: 1.6em;
+}
+h3 {
+	font-size: 1.4em;
+}
+pre {
+	font-family: FreeMono, Courier New, Consolas, monospace;
+	margin: 0;
+}
+.license-permissions-list {
+	margin: 0;
+	padding: 1em 0;
+	padding-left: 2.5em;
+}
+#advertising-badge,
+#bsd-based-badge,
+#copyleft-badge,
+#free-badge,
+#identifier,
+#open-source-badge,
+#permissive-badge {
+	border-radius: 0.25em;
+	display: inline-block;
+	font-size: 0.9em;
+	margin-right: 0.25em;
+	margin-bottom: 0.25em;
+	padding: 0.25em;
+}
+#advertising-badge {
+	background: #8f0fbf;
+	color: #ffffff;
+}
+#bsd-based-badge {
+	background: #df8f00;
+	color: #ffffff;
+}
+#copyleft-badge {
+	background: #df0000;
+	color: #ffffff;
+}
+#free-badge {
+	background: #005f00;
+	color: #ffffff;
+}
+#identifier {
+	background: #3f3f3f;
+	color: #ffffff;
+}
+#open-source-badge {
+	background: #0000af;
+	color: #ffffff;
+}
+#permissive-badge {
+	background: #9f006f;
+	color: #ffffff;
+}
+#license-permissions {
+	display: flex;
+	background: #dfdfdf;
+}
+#license-permissions-can {
+	border: 1px solid #00df00;
+	flex: auto;
+	-webkit-flex: auto;
+	flex-basis: 100%;
+}
+#license-permissions-can h3 {
+	background: #00df00;
+	display: block;
+	margin: 0;
+	padding: 0.25em;
+	text-align: center;
+}
+#license-permissions-cannot {
+	border: 1px solid #df0000;
+	flex: auto;
+	-webkit-flex: auto;
+	flex-basis: 100%;
+}
+#license-permissions-cannot h3 {
+	background: #df0000;
+	display: block;
+	margin: 0;
+	padding: 0.25em;
+	text-align: center;
+}
+#license-permissions-provided {
+	border: 1px solid #5f5fdf;
+	flex: auto;
+	-webkit-flex: auto;
+	flex-basis: 100%;
+}
+#license-permissions-provided h3 {
+	background: #5f5fdf;
+	display: block;
+	margin: 0;
+	padding: 0.25em;
+	text-align: center;
+}
+[tooltip] {
+	position: relative;
+}
+[tooltip]::after {
+	background: rgba(0, 0, 0, 0.9);
+	border-radius: 0.3125em;
+	color: #dfdfdf;
+	content: attr(tooltip);
+	font-size: 0.9rem;
+	left: auto;
+	padding: 0.25em 0.125em;
+    pointer-events: none;
+	position: absolute;
+	text-align: center;
+	top: -0.375em;
+	transform: translateX(-50%) translateY(-100%);
+	-webkit-transform: translateX(-50%) translateY(-100%);
+	width: 6em;
+}

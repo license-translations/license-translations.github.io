@@ -5,13 +5,16 @@ description: >- # this means to ignore newlines until "baseurl:"
   Translating the most commonly used licenses.
 baseurl: ""
 url: "https://mlaunois.github.io/license-translations"
-github_username:  mlaunois
+github_username:  license-translations
+repository: license-translations/license-translations.github.io
 
 # Build settings
 markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-github-metadata
+  - jekyll-sitemap
 sass:
     style: compressed
 collections:
@@ -22,6 +25,8 @@ collections:
   bsd-like:
     output: true
   about:
+    output: true
+  mit:
     output: true
   show-license:
     output: true

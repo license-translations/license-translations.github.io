@@ -1,0 +1,8 @@
+name,summary
+copyright,Conserver la notice original de droit d'auteur dans le logiciel
+license,Inclure le texte complet de la licence dans le logiciel
+state-change,Faire savoir quels fichiers ont été modifiés
+notice-file,Inclure un fichier NOTICE dans le logiciel, s'il existe dans l'original
+attribution,Inclure des crédits dans tous les supports de publicité
+source-disclosure,Publier le code source et le code qui y est combiné sous cette licence
+same-license,Publier le logiciel sous la même licence

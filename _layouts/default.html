@@ -2,7 +2,7 @@
 {% if page.lang %}
 <html lang="{{ page.lang }}">
 {% else %}
-<html lang="en_US">
+<html lang="en-US">
 {% endif %}
 	<head>
 		{% include head.html %}
@@ -10,11 +10,12 @@
 	<body>
 		{% include header.html %}
 		<article id="post" class="main">
-			<div id="warning" style="background: #df0000; color: #ffffff; width: 100%; padding: 0.25em">
+			<div id="warning" style="background: #df0000; color: #ffffff; width: 100%; padding: 0.4em">
 				This site is in beta and is subject to change.
 			</div>
 			{{ content }}
 		</article>
+		<script src="{{ "/assets/base.min.js" | relative_url }}" async="true"></script>
 		{% include footer.html %}
 	</body>
 </html>

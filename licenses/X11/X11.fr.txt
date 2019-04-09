@@ -1,0 +1,28 @@
+Copyright (C) 1996 X Consortium
+
+La permission à titre gratuit, de manipuler le Logiciel sans restriction,
+incluant sans limitation les droits d'utilisation, de copie, de
+modification, de fusion, de publication, de sous-licencier ou de vente
+de copies est accordée pour toute personne obtenant une copie
+de ce logiciel et de la documentation associée (le "Logiciel") et à
+toutes celles à qui le Logiciel est fourni, selon les conditions
+suivantes :
+
+La mention de droit d'auteur ci-dessus et cette mention de permission
+doit être incluse dans toutes les copies et les parties du Logiciel.
+
+LE LOGICIEL EST FOUNRI "TEL QUEL", SANS GARANTIE D'AUCUNE SORTE,
+EXPRESSE OU IMPLICITE, INCLUANT MAIS NON LIMITÉ AUX GARANTIES DE
+VALEUR MARCHANDE, D'ADÉQUATION POUR UN OBJECTIF PARTICULIER ET LA
+NON-VIOLATION. EN AUCUN CAS NE DEVRAIENT ÊTRE RESPONSABLES LES
+AUTEURS OU LES DÉTENTEURS DE DROIT D'AUTEUR POUR TOUTE RÉCLAMATION,
+DOMMAGE OU AUTRE RESPONSABILITÉ, QUE CE SOIT LORS D'UN CONTRAT, PAR
+TORT OU AUTRE, SURVENANT DE OU EN CONNEXION AVEC LE LOGICIEL,
+SON UTILISATION OU D'AUTRES ACCORDS DANS LE LOGICIEL.
+
+Sauf comme indiqué dans cette mention, le nom de X Consortium ne peut
+être utilisé dans des publicités ou autres pour promouvoir la vente,
+l'utilisation ou d'autres agissements dans le Logiciel sans une
+autorisation écrite du X Consortium.
+
+X Window System est une marque de X Consortium, Inc.
